@@ -1,0 +1,39 @@
+.links {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.links img { height: 160px; padding: 30px;}
+.links .link {
+    transition: 0.5s;
+    background: rgb(8, 8, 8);
+    padding-right: 80px;
+    border-radius: 50px;
+    margin: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links .link:hover { transition: 0.5s; -webkit-transform: scale(1.05); box-shadow: 0 0 25px #6eb561;}
+.links .link h2 {  padding-bottom: 30px }
+.links .link a {
+    padding: 10px 20px;  
+    background-color: #6eb561;
+    border-radius: 10px;
+}
+
+.links .link .btn {
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}

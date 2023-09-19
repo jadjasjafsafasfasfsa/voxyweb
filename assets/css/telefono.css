@@ -1,0 +1,131 @@
+@media only screen and (max-width: 600px) {
+    .principio .datos {
+        flex-direction: column;
+
+    }
+
+
+    .datos .img {
+        height: 150px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px),
+(max-width: 700px),
+(max-width: 800px),
+(max-width: 900px) {
+
+
+    .datos {
+        margin: 0;
+    }
+
+    .principio {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .servidores {
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .servidor {
+        padding: 15px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .informaciones {
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .informacion {
+        padding: 15px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .links {
+
+        display: block;
+    }
+
+    .links .link {
+        background: rgb(8, 8, 8);
+        padding: 20px 20px;
+        border-radius: 50px;
+        margin: 30px;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+  
+    header nav {
+      font-size: 15px;
+    }
+
+    ul {
+        padding: 0;
+      }
+
+      
+    .vp-chico {
+        display: none;
+    }
+
+    .guard-chico {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .vp-grande {
+        font-size: 55px;
+        -webkit-text-stroke: 3px;
+    }
+
+    .guard-grande {
+        color: #6eb561;;
+        font-size: 55px;
+        -webkit-text-stroke: 3px;
+    }
+
+    .principio img {
+        display: none
+    }
+
+    .links .link:hover { transition: 0.5s; -webkit-transform: scale(1.05); box-shadow: 0 0 0px rgb(20, 20, 20);}
+    .links .link h2 {  padding-bottom: 30px }
+    .links .link a {
+        padding: 10px 20px;  
+        background-color: #6eb561;
+        border-radius: 10px;
+    }
+  }

@@ -1,0 +1,33 @@
+.informaciones {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion {
+    color: #fff;
+    background-color: rgb(8, 8, 8);
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+}
+.informaciones img {
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+.informacion a {
+    margin: 10px;
+}
+.informacion .info {
+    margin: 0%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}

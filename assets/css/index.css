@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(20, 20, 20);
+}
+
+img {
+    border-radius: 100%;
+}
+
+.guard-grande {
+    color: #6eb561;
+}
+
+
+
+.datos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 55vh;
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    
+}
+
+
+
+.principio img {
+    
+    margin-right: 110px;
+   
+    height: 290px;
+}
+.principio .datos h1 {
+    color: #fff;
+    -webkit-text-stroke: 6px;
+    font-size: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+ p {
+    color: rgba(255, 255, 255, 0.905);
+   
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 0px;
+    margin: 15px;
+   
+}
+
+.principio .guard {
+    color: #6eb561;
+    font-size: 99px;
+}

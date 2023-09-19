@@ -1,0 +1,33 @@
+.staffs {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff {
+    color: #fff;
+    background-color: rgb(8, 8, 8);
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+}
+.staffs img {
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+.staff a {
+    margin: 10px;
+}
+.staff .serv {
+    margin: 0%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
